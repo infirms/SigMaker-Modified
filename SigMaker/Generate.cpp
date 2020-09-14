@@ -30,6 +30,8 @@ bool MatchOperands( insn_t *cmd, unsigned int uiOperand, unsigned int uiSize ) /
     //if ( cmd.Operands[ uiOperand ].type == o_mem || cmd.Operands[ uiOperand ].type == o_far)
     //	return false;
 
+
+
     if (get_first_dref_from( cmd->ea ) != BADADDR) // data reference
         return false;
 
