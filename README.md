@@ -24,6 +24,8 @@ Because IDA no longer has a native 32-bit compiled version anymore, the Release/
 
 After compiling compiler will automaticly copy plugin dll file to the path of environment variable IDADIR in plugins folder.
 
+In case you are using pre-compiled binaries just copy them into plugins folder in your ida installation directory.
+
 # Usage
 
 Plugin gui can be called by simple Ctrl + Alt + S combination or with Edit-> Plugins -> SigMaker.
